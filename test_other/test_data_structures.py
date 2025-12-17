@@ -105,7 +105,6 @@ def test_stack_multiple_types():
     assert stack.pop() == 123
 
 # тесты для класса Queue
-
 def test_queue_creation():
     queue = Queue()
     assert queue.is_empty() == True
